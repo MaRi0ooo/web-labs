@@ -1,0 +1,104 @@
+body {
+    font-family: Arial sans-serif;
+    display: flex; flex-direction: column;
+    justify-content: center; align-content: center;
+}
+#top-caption { display: flex; flex-direction: row; justify-content: space-around;}
+#caption span{ font-size: 20px; }
+#caption span:nth-child(1){ color: #1598dc; font-weight: bold;}
+#caption span:nth-child(2){ color: darkgray; font-weight: lighter;}
+#top-caption-button-section{
+    display: flex; flex-direction: row;
+    color: dimgray; font-size: 12px;
+}
+#top-caption-button-section span {
+    margin: 0px 12px 0px 12px;
+    position: relative; top: 6px;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+}
+#top-caption-button-section span:hover{
+    font-size: 15px;
+}
+#top-caption-button-section button {
+    color: white;
+    background: #1598dc; background: linear-gradient(180deg, rgb(50, 171, 236) 0%, rgb(22, 139, 197) 100%);
+    border: 0px; border-radius: 3px;
+    height: 25px; width: 90px;
+    margin-left: 10px;
+
+}
+#image-section {
+    display: flex; flex-direction: column; justify-content: center; align-content: center; flex-wrap: wrap;
+    margin-top: 10px;
+}
+#main-section {
+    background-image: url("img/island-picture.jpg"); background-size: cover; background-repeat: no-repeat;
+    width: 1150px; height: 500px;
+    color: white; font-size: 40px; font-weight: bold;
+    display: flex; flex-direction: column; justify-content: center; text-align: center;
+    margin-right: 0px;
+}
+#image-section div:nth-child(1) span:nth-child(2){font-weight: lighter;}
+#image-section div:nth-child(1) button {
+    background: #0fff00; background: linear-gradient(180deg, rgb(140, 255, 83) 0%, rgb(46, 166, 19) 100%);
+    border: 1px solid green; border-radius: 3px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+    height: 40px; width: 200px;
+    color: white; font-weight: bold; font-size: 20px;
+}
+#second-part {
+    background-color: #EBEBEBFF;
+    display: flex; flex-direction: column; justify-content: center; align-content: center; text-align: center;
+}
+#places-block{
+    background-color: white; background-image: none;
+    width: 470px; height: 200px;
+    align-self: center;
+    position: relative; bottom: 100px;
+    border: 5px solid white; border-bottom-color: #3fec36; border-radius: 5px;
+    display: flex; flex-direction: column; justify-content: normal;
+    color: darkgray; font-size: 12px; font-weight: lighter;
+}
+#places-block span:nth-child(1) { font-size: 18px; margin-top: 5px; }
+#places-row1 { display: flex; flex-direction: row; margin: 5px 10px 5px 10px;}
+#places-row2 { display: flex; flex-direction: row; margin: 5px 10px 5px 10px;}
+.place-block {
+    display: flex; flex-direction: column;
+    text-align: left;
+    width: fit-content; height: fit-content;
+    margin: 5px;
+}
+.image-place-block {width: 80px; height: 50px;}
+.text-place-block { margin-top: 2px;}
+#places-row1 .place-block:nth-child(1) div{ background-color: #ffc1ae;}
+#places-row1 .place-block:nth-child(2) div{ background-color: #5f90cc; }
+#places-row1 .place-block:nth-child(3) div{ background-color: #20befc;}
+#places-row1 .place-block:nth-child(4) div{ background-color: #b2b0a9;}
+#places-row1 .place-block:nth-child(5) div{ background-color: #829ea4;}
+#places-row2 .place-block:nth-child(1) div{ background-color: #b9bec5;}
+#places-row2 .place-block:nth-child(2) div{ background-color: #2d411b; }
+#places-row2 .place-block:nth-child(3) div{ background-color: #7fb9f7;}
+#places-row2 .place-block:nth-child(4) div{ background-color: #616457;}
+#places-row2 .place-block:nth-child(5) div{ background-color: #7a7570;}
+
+#under-text-block{
+    display: flex;flex-direction: column;
+    color: #9f9f9f;
+    position: relative; bottom: 50px;
+}
+#under-text-block span:nth-child(2){font-size: 13px; position: relative; top: 2px;}
+#icon-block { display: flex; flex-direction: row; justify-content: center; align-content: center;}
+.icon {
+    margin: 30px 20px 0px 20px;
+    width: 90px; height: 90px;
+    background-color: white; border-radius: 50%;
+    display: flex; flex-direction: column; justify-content: center; align-content: center;
+}
+.icon img {width: 60px; align-self: center;}
+#planet-image-small { width: 100px;}
+#black-line {height: 20px; background-color: black; color: #696969; font-size: 10px;}
+#black-line span {position: relative; top: 5px;}
+
+
+

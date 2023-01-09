@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#navigation {
+    display: flex;
+    background-color: rgba(40, 44, 52, 0.2);
+    width: 100vw;
+}
+
+#navigation > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navigation > ul > li {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navigation > ul > li {
+    margin-left: 10px;
+}
+
+#navigation > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15pt;
+}
+
+#navigation > ul > li > a:hover {
+    text-decoration-line: line-through;
+}
+
+#main-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+#main-container > #main-category > ul {
+    list-style: none;
+}
+
+#main-category > ul > li {
+    margin-top: 10px;
+!important;
+}
+
+#main-category > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 30rem;
+    max-height: 30rem;
+    box-shadow: 5px 5px 10px 0 gray;
+    margin: 10px;
+}
+
+.card, .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > div > .card-image {
+    width: 12rem;
+    display: inline-block;
+    position: relative;
+}
+
+footer {
+    width: 100vw;
+    min-height: 100%;
+    display: flex;
+    height: 40vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gray;
+    color: white;
+    padding-top: 100px;
+}
+
+footer > div:nth-child(1), footer > div:nth-child(2) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+footer > div:nth-child(1) > ul, footer > div:nth-child(2) > ul {
+    list-style: none;
+}
+
+footer > div:nth-child(3) > form {
+    display: flex;
+    flex-display: column !important;
+}
+
+footer > div:nth-child(3) > form > * {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+footer > div:nth-child(3) > form > button {
+    color: white;
+    background-color: green;
+    border: 1px solid transparent;
+}
+
+.card-body h3 {
+    text-align: center;
+    width: 300px;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.image1:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 23%;
+    top: 35%;
+    z-index: 1;
+    background: rgb(244, 101, 129);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: whitesmoke;
+    rotate: 30deg;
+    font-weight: bold;
+}
+
+.image2:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 60%;
+    top: 35%;
+    z-index: 1;
+    background: rgb(244, 101, 129);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: whitesmoke;
+    rotate: 30deg;
+    font-weight: bold;
+}
+
+.image3:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 23%;
+    bottom: -8%;
+    z-index: 1;
+    background: rgb(244, 101, 129);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: whitesmoke;
+    rotate: 30deg;
+    font-weight: bold;
+}
+
+.image4:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 60%;
+    bottom: -8%;
+    z-index: 1;
+    background: rgb(244, 101, 129);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: whitesmoke;
+    rotate: 30deg;
+    font-weight: bold;
+}
+
+.image5:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 23%;
+    bottom: -77%;
+    z-index: 1;
+    background: rgb(244, 101, 129);
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: whitesmoke;
+    rotate: 30deg;
+    font-weight: bold;
+}

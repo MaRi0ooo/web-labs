@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, serif;
+}
+
+img {
+    margin-right: 15px;
+}
+
+a {
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 50px;
+}
+
+.list li {
+    padding: 10px 50px;
+    text-align: left;
+    background-color: #a5ccdb;
+}
+
+li.gray-list {
+    background-color: #e2e2e2;
+}
+
+li.lightblue-list {
+    background-color: #add9e6;
+}

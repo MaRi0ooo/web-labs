@@ -1,0 +1,14 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, serif;
+}
+
+span {
+    background-color: #e0e0e0;
+    padding: 0px 5px;
+    font-size: xx-large;
+}
+
+span.red {
+    color: #960204
+}

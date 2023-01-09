@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, serif;
+}
+
+span {
+    font-size: 14px;
+}
+
+dl {
+    font-size: 14px;
+}
+
+dt {
+    color: gray;
+}
+
+mark {
+    background: none;
+    color: darkblue;
+}

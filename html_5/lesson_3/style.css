@@ -1,0 +1,33 @@
+body {
+    background-color: #f6f6f6;
+    margin: 0 300px 0 300px;
+}
+
+#header-image {
+    justify-content: space-evenly;
+    height: 580px;
+    display: flex;
+}
+
+#main-block {
+    margin: 0 40px 0 40px;
+}
+
+#sub-block {
+    display: flex;
+    flex-direction: row;
+}
+
+#images-block {
+    margin-left: 40px;
+    width: 70px;
+    height: 88px;
+    background-image: url("img/paintbrush.png");
+    background-size: 50px;
+}
+
+#repeat-y-block {
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}

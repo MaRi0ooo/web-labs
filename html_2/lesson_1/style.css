@@ -1,0 +1,22 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, serif;
+    color: whitesmoke;
+}
+
+.fruit {
+    background-color: #ef9eaf;
+    padding: 5px;
+}
+
+.fruit li {
+    list-style-position: inside;
+    margin: 15px 10px;
+    background-color: #c66377;
+    padding: 10px 10px;
+}
+
+.fruit a {
+    padding: 10px 15px;
+    background-color: #9f354b;
+}

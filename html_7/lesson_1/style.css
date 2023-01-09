@@ -1,0 +1,205 @@
+/* STATIC ANIMATION*/
+/*
+img {
+    width: 50px;
+    height: auto;
+    animation: example 1s infinite;
+    transition: 0.4s ease;
+}
+
+@keyframes example {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#negative {
+    width: 150px;
+    height: auto;
+    animation: colorInverting 5s infinite;
+    transition: 2s ease;
+}
+
+@keyframes colorInverting {
+    0% {
+        filter: invert(1);
+    }
+    10% {
+        filter: invert(0.3);
+    }
+    40% {
+        filter: invert(50%);
+    }
+    70% {
+        filter: invert(70%);
+    }
+    100% {
+        filter: invert(1);
+    }
+}
+
+#block {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    animation: colorChanging 10s infinite;
+}
+
+@keyframes colorChanging {
+    0% {
+        background-color: black;
+    }
+    20% {
+        background-color: green;
+    }
+    40% {
+        background-color: orange;
+    }
+    50% {
+        background-color: gray;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+#block>span {
+    animation: colorText 10s infinite;
+    transition: 0.4s ease;
+}
+
+@keyframes colorText {
+    0% {
+        color: green;
+    }
+    20% {
+        color: black;
+    }
+    40% {
+        color: gray;
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: green;
+    }
+}
+
+#block>span>i {
+    animation: opacityText 1s infinite;
+    transition: 0.4s ease;
+}
+
+@keyframes opacityText  {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+/* MOVING ANIMATION */
+/*
+img {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    animation: moving 4s infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    50% {
+        left: 30vw;
+        top: 40vh;
+        transform: rotate(180deg);
+    }
+    75% {
+        left: 20vw;
+        top: 14vh;
+    }
+    90% {
+        left: -150vw;
+        top: 1000vh;
+    }
+    100% {
+        left: 0;
+        top: 0;
+        transform: rotate(0deg);
+    }
+}
+
+#second {
+    width: 30px;
+    height: auto;
+    margin-left: 90%;
+    animation: rotateAnim 1s infinite;
+}
+
+@keyframes rotateAnim {
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+*/
+
+/* LESSON 1 */
+#pig {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+
+    width: 200px;
+    height: 200px;
+
+    display: block;
+    animation: jumpPig 1.5s infinite;
+}
+
+@keyframes jumpPig {
+    0% {
+        transform: translateY(-100%)
+    }
+    70% {
+        transform: translateY(80%);
+        height: 16vh;
+    }
+    90% {
+        transform: translateY(-100%) rotate(10deg);
+    }
+    95% {
+        transform: translateY(-100%) rotate(-10deg);
+    }
+    100% {
+        transform: translateY(-100%) rotate(10deg);
+    }
+}

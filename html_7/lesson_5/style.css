@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    border: 3px solid red;
+    max-height: 30rem;
+    max-width: 20rem;
+
+    margin: 10px;
+    height: 90px;
+    transition: background-color 1s,
+    width 1s,
+    color 1s,
+    max-width 1s,
+    font-size 1s,
+    transform 1s;
+}
+
+.block:nth-child(1):hover {
+    background-color: red;
+}
+
+.block:nth-child(2) {
+    font-size: 26px;
+}
+
+.block:nth-child(2):hover {
+    background-color: red;
+    color: white;
+}
+
+.block:nth-child(3):hover {
+    max-width: 50%;
+}
+
+.block:nth-child(4):hover {
+    max-width: 50%;
+    font-size: 36px;
+}
+
+.block:nth-child(5):hover {
+    max-width: 50%;
+    transform: translateX(100px);
+}
+
+.block:nth-child(6) > h3 {
+    position: absolute;
+    text-align: center;
+    margin-top: 34px;
+    transform: translateX(2400%);
+    transition: 1s;
+}
+
+.block:nth-child(6):hover h3 {
+    transform: translateX(170%);
+}
+
+.container > input {
+    border: 2px solid green;
+    transition: 1s;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.container > input:focus {
+    width: 50%;
+}
+
+.block:nth-child(9) {
+    border: 3px solid green;
+    max-width: 100%;
+    padding: 30px;
+    height: 50%;
+}
+
+.block:nth-child(9) > ul {
+    list-style-type: none;
+    margin-left: 3%;
+}
+
+.block:nth-child(9) > ul > li {
+    list-style-type: none;
+    border: 3px solid red;
+    transition: 1s;
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+.block:nth-child(9):hover li {
+    width: 97%;
+}
+
+.block:nth-child(10) {
+    border: none;
+    max-width: 99%;
+    margin-bottom: 200px;
+}
+
+.block:nth-child(10) > ul > li {
+    border: 3px solid red;
+    list-style-type: none;
+    transition: 1s;
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+.block:nth-child(10) > ul > li:hover + li {
+    width: 98%;
+}
+
+.block:nth-child(11) {
+    border: none;
+    max-width: 99%;
+}
+
+.block:nth-child(11) > ul > li {
+    border: 3px solid red;
+    list-style-type: none;
+    transition: 1s;
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+.block:nth-child(11) > ul > li:hover ~ li {
+    width: 98%;
+}
+
+.block:nth-child(12) {
+    margin-top: 200px;
+    border: none;
+    max-width: 99%;
+}
+
+.block:nth-child(12) > ul > li {
+    border: 3px solid red;
+    list-style-type: none;
+    transition: 1s;
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+.block:nth-child(12) > ul > li:first-child:hover ~ li:nth-child(3n), li:nth-child(2):hover ~ li:nth-child(2n), li:nth-child(3):hover ~ li:nth-child(2n-1) {
+    width: 98%;
+}
+
+.block:nth-child(13) {
+    margin: 200px 0 0 10px;
+    max-width: 100%;
+    width: 98%;
+    height: 20px;
+    text-align: left;
+}
+
+.block:nth-child(13) > h1 {
+    position: absolute;
+    text-align: center;
+    margin-top: 34px;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: #a957a5;
+    transform: translateX(-2400%);
+    transition: 1s;
+}
+
+.block:nth-child(13):hover h1 {
+    transform: translateX(110%);
+}
+
+.block:nth-child(14) {
+    margin-top: 110px;
+    border: none;
+    max-width: 99%;
+}
+
+.block:nth-child(14) > ul > li {
+    border: 3px solid red;
+    list-style-type: none;
+    transition: 1s;
+    margin: 10px;
+    height: 30px;
+    width: 25%;
+}
+
+.block:nth-child(14):hover li {
+    transition-timing-function: steps(10, start);
+}
+
+.block:nth-child(15) {
+    display: flex;
+    position: absolute;
+    border: 1px solid red;
+    margin-bottom: 200px;
+    max-width: 99%;
+    width: 150px;
+    height: 50px;
+    margin-top: 20%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#first-block {
+    position: absolute;
+    background-color: black;
+    transform: translate(150%, -400%);
+    width: 150px;
+    height: 50px;
+    transition: 1s;
+}
+
+#second-block {
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    transform: translate(300%, 0);
+    transition: 1s;
+}
+
+.block:nth-child(15):hover #first-block {
+    transform: translate(150%, 0);
+}
+
+.block:nth-child(15):hover #second-block {
+    transform: translate(150%, 0);
+}
+
+.block:nth-child(16) {
+    margin-top: 400px;
+    border: none;
+}

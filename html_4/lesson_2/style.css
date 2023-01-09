@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    padding-bottom: 100px;
+    text-align: center;
+    color: dimgray;
+
+    font-size: 75px;
+    margin-top: 130px;
+}
+
+.footer {
+    background-color: #0083de;
+    width: 100%;
+}
+
+.block-one {
+    padding: 100px 10%;
+    display: flex;
+}
+
+.block-one div {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.block-one a {
+    display: flex;
+}
+
+form input {
+    background-color: #0083de;
+    border: 1px solid white;
+    border-radius: 100px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    width: 190px;
+    height: 45px;
+
+    color: white;
+    outline: none;
+    text-align: left;
+}
+
+::placeholder {
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+form button {
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+
+    width: 100px;
+    height: 35px;
+
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.block-two {
+    display: flex;
+    padding: 25px 10%;
+}
+
+.block-two div {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.cont-5 {
+    display: inline-block;
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons i {
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+hr {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+}
+
+span {
+    margin-top: 5px;
+    display: flex;
+}
+
+p {
+    text-align: left;
+    width: 200px;
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: Calibri, serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#main-image {
+    width: 70px;
+    height: 70px;
+}
+
+#caption-left {
+    position: relative;
+    bottom: 25px;
+    font-family: "Fira Code", serif;
+    font-size: 20px;
+}
+
+#content-block {
+    width: 580px;
+    margin-top: 20px
+}
+
+.caption-right {
+    position: relative;
+    color: gray;
+    float: right;
+    font-size: 16px;
+}
+
+#caption-right1 {
+    top: 30px;
+}
+
+#caption-right2 {
+    bottom: 33px;
+}
+
+#table-block {
+    margin-top: 15px;
+}
+
+.table-block-item {
+    border: 2px solid #e1e1e1;
+    border-bottom: 0;
+    height: 150px;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-block {
+    align-self: center;
+}
+
+.image-border {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #e1e1e1;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.image-inside {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 110px;
+    height: 110px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+}
+
+.image {
+    align-self: center;
+    width: 70px;
+    height: 70px;
+}
+
+.image-block {
+    align-self: center;
+}
+
+.table-block-item {
+    display: flex;
+    flex-direction: row;
+    padding-right: 35px;
+    padding-left: 35px;
+    justify-content: space-between;
+}
+
+.table-block-item:last-child {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.table-block-item:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.table-block-item:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.table-block-item:first-child {
+    text-align: center;
+    padding: 0;
+    display: block;
+}
+
+.table-block-item:last-child {
+    text-align: center;
+    display: block;
+}

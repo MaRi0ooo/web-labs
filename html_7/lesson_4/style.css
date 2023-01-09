@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
+}
+
+#osu {
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    height: auto;
+    z-index: 1;
+    width: 20%;
+
+    top: 55%;
+    left: 50%;
+    right: 50%;
+}
+
+img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    height: auto;
+    width: 10%;
+
+    top: 55%;
+    left: 50%;
+    right: 50%;
+    z-index: 0;
+    transition: 1.5s;
+}
+
+.container:hover .images>img:nth-last-child(1) {
+    transform: translate(300px, -100px);
+    transition-delay: 3.5s;
+}
+
+.container:hover .images>img:nth-last-child(2) {
+    transform: translate(200px, -350px);
+    transition-delay: 3s;
+}
+
+.container:hover .images>img:nth-last-child(3) {
+    transform: translate(-70px, -400px);
+    transition-delay: 2.5s;
+}
+
+.container:hover .images>img:nth-last-child(4) {
+    transform: translate(-300px, -330px);
+    transition-delay: 2s;
+}
+
+.container:hover .images>img:nth-last-child(5) {
+    transform: translate(-400px, -100px);
+    transition-delay: 1.5s;
+}
+
+.container:hover .images>img:nth-last-child(6) {
+    transform: translate(-280px, 120px);
+    transition-delay: 1s;
+}

@@ -1,0 +1,35 @@
+body, html {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: #808080;
+    list-style-type: none;
+    width: 280px;
+
+    margin: 0;
+    padding: 0;
+    color: lightgray;
+}
+
+ul li {
+    display: flex;
+    padding: 15px;
+}
+
+li img {
+    width: 64px;
+    height: fit-content;
+    float: left;
+}
+
+li h4 {
+    text-align: right;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+li:hover {
+    background-color: #5e5e5e;
+}

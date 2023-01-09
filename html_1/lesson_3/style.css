@@ -1,0 +1,41 @@
+body {
+    background-color: #F5F5F5;
+    font-family: "Arial", serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    font-size: small;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 2px dotted;
+}
+
+code {
+    background-color: #E7E7E7;
+    color: #A01213;
+    font-weight: bold;
+}
+
+#code-block {
+    background-color: #E7E7E7;
+    padding: 10px 10px;
+    font-size: small;
+}
+
+span {
+    background-color: #E7E7E7;
+    font-size: small;
+    padding: 1px 3px;
+    color: #2FA576;
+}
