@@ -61,7 +61,6 @@ console.log("The result of adding: " + result);
 */
 
 console.log("\nTask [4]");
-
 function fibonacciArray(n) {
     let arr = [];
     for (let i = 0; i <= n; i++) {
@@ -75,5 +74,4 @@ function fibonacciArray(n) {
     }
     return arr;
 }
-
 console.log(fibonacciArray(10) + "...");
