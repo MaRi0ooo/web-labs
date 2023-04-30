@@ -1,0 +1,16 @@
+.text-cols {
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.text-cols-item {
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: #fff2e1;
+}
+
+.text-cols .text-cols-item:first-child {
+    margin-right: 3.5%;
+}
